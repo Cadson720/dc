@@ -4,13 +4,13 @@ body {
     padding: 0;
     background-color: white;
     color: black;
+    text-align: center;
 }
 
 header {
     background-color: #FF4500;
     color: white;
     padding: 20px;
-    text-align: center;
 }
 
 header h1 {
@@ -41,12 +41,40 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
-main {
-    padding: 20px;
+.hero {
+    padding: 50px 20px;
+    background-color: #f2f2f2;
 }
 
-section {
-    margin-bottom: 20px;
+.hero h2 {
+    font-size: 2em;
+    margin-bottom: 40px;
+}
+
+.products-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.product {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    max-width: 300px;
+    text-align: center;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.product p {
+    margin: 10px 0;
 }
 
 footer {
